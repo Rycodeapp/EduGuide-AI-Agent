@@ -1,0 +1,255 @@
+{
+  "python": {
+    "beginner": {
+      "books": [
+        {"title": "Automate the Boring Stuff with Python (Al Sweigart)", "rating": 9.5, "reason": "Tuyệt vời cho người mới, học qua việc viết script tự động hóa các tác vụ thực tế hằng ngày."},
+        {"title": "Python Crash Course (Eric Matthes)", "rating": 9.2, "reason": "Sách đi thẳng vào thực hành với 3 project lớn: Game, Data Visualization và Web."},
+        {"title": "Think Python: How to Think Like a Computer Scientist", "rating": 9.0, "reason": "Tập trung mạnh vào việc rèn luyện tư duy máy tính thuật toán cơ bản bằng Python."}
+      ],
+      "courses": [
+        {"title": "CS50P: Introduction to Programming with Python (edX/Harvard)", "rating": 9.8, "reason": "Khóa học miễn phí từ ĐH Harvard, bài tập cực hay và rèn tư duy logic chuẩn mực."},
+        {"title": "100 Days of Code: The Complete Python Pro Bootcamp (Udemy)", "rating": 9.4, "reason": "Lộ trình 100 ngày thực hành liên tục, mỗi ngày 1 project thực tế."}
+      ]
+    },
+    "intermediate": {
+      "books": [
+        {"title": "Fluent Python (Luciano Ramalho)", "rating": 9.7, "reason": "Sách gối đầu giường để viết code Python chuẩn 'Pythonic', hiểu sâu về core của ngôn ngữ."},
+        {"title": "Effective Python (Brett Slatkin)", "rating": 9.6, "reason": "90 quy tắc cụ thể giúp viết code Python sạch, tối ưu hiệu suất và dễ bảo trì."},
+        {"title": "Python Cookbook (David Beazley)", "rating": 9.3, "reason": "Chứa hàng trăm đoạn code mẫu giải quyết các bài toán lập trình phức tạp."}
+      ],
+      "courses": [
+        {"title": "Python 3 Programming Specialization (Coursera/Michigan)", "rating": 9.5, "reason": "Khóa học chuyên sâu về xử lý dữ liệu, API và thư viện ngoài."}
+      ]
+    },
+    "advanced": {
+      "books": [
+        {"title": "High Performance Python", "rating": 9.8, "reason": "Dạy cách tối ưu hóa code Python, sử dụng Cython, và xử lý đa luồng (multiprocessing) cho các hệ thống lớn."},
+        {"title": "CPython Internals", "rating": 9.9, "reason": "Phân tích sâu vào mã nguồn C của Python để hiểu cách trình biên dịch và bộ dọn rác (Garbage Collector) hoạt động."}
+      ]
+    }
+  },
+  "java": {
+    "beginner": {
+      "books": [
+        {"title": "Head First Java (Kathy Sierra)", "rating": 9.4, "reason": "Cách tiếp cận trực quan, nhiều hình ảnh, giúp khái niệm OOP trở nên rất dễ hiểu."},
+        {"title": "Core Java Volume I: Fundamentals", "rating": 9.2, "reason": "Quyển sách chuẩn mực giáo khoa, bao quát mọi cú pháp nền tảng của Java."}
+      ],
+      "courses": [
+        {"title": "Java Programming MOOC (University of Helsinki)", "rating": 9.8, "reason": "Khóa học miễn phí tốt nhất để rèn luyện tư duy OOP với hàng trăm bài tập tự động chấm điểm."}
+      ]
+    },
+    "intermediate": {
+      "books": [
+        {"title": "Effective Java (Joshua Bloch)", "rating": 9.9, "reason": "Cuốn sách huyền thoại của kiến trúc sư Java, chứa 90 quy tắc thực tiễn để viết code tối ưu."},
+        {"title": "Spring in Action", "rating": 9.5, "reason": "Sách tốt nhất để bắt đầu học Framework Spring Boot làm Backend chuyên nghiệp."}
+      ]
+    },
+    "advanced": {
+      "books": [
+        {"title": "Java Concurrency in Practice", "rating": 9.8, "reason": "Tài liệu bắt buộc phải đọc nếu muốn lập trình đa luồng (multithreading) trong các hệ thống ngân hàng, tài chính."},
+        {"title": "Optimizing Java (Benjamin Evans)", "rating": 9.6, "reason": "Hướng dẫn tinh chỉnh JVM (Java Virtual Machine) và đo lường hiệu năng hệ thống."}
+      ]
+    }
+  },
+  "c++": {
+    "beginner": {
+      "books": [
+        {"title": "C++ Primer (Stanley B. Lippman)", "rating": 9.5, "reason": "Rất chi tiết, bám sát chuẩn C++ hiện đại (C++11/14 trở lên), phù hợp làm sách giáo khoa."},
+        {"title": "Programming: Principles and Practice Using C++ (Bjarne Stroustrup)", "rating": 9.4, "reason": "Được viết bởi chính cha đẻ của C++, dạy tư duy lập trình hơn là chỉ dạy cú pháp."}
+      ],
+      "courses": [
+        {"title": "Learn C++ (Codecademy)", "rating": 8.9, "reason": "Học tương tác trực tiếp trên trình duyệt, phù hợp làm quen cú pháp nhanh."}
+      ]
+    },
+    "intermediate": {
+      "books": [
+        {"title": "Effective Modern C++ (Scott Meyers)", "rating": 9.8, "reason": "Quyển sách gối đầu giường giúp nắm vững các tính năng mới của C++11 và C++14."},
+        {"title": "A Tour of C++ (Bjarne Stroustrup)", "rating": 9.3, "reason": "Tổng quan nhanh nhưng sâu sắc về toàn bộ ngôn ngữ C++ dành cho người đã có nền tảng."}
+      ]
+    },
+    "advanced": {
+      "books": [
+        {"title": "C++ Concurrency in Action (Anthony Williams)", "rating": 9.9, "reason": "Hướng dẫn toàn diện nhất về lập trình đa luồng cực kỳ phức tạp trong C++."},
+        {"title": "Advanced C++ Metaprogramming", "rating": 9.6, "reason": "Sách chuyên sâu về Template Metaprogramming, kỹ thuật viết code sinh ra code lúc biên dịch."}
+      ]
+    }
+  },
+  "data_structures_and_algorithms": {
+    "beginner": {
+      "books": [
+        {"title": "Grokking Algorithms (Aditya Bhargava)", "rating": 9.6, "reason": "Sách có nhiều hình minh họa vui nhộn, giải thích thuật toán bằng hình ảnh dễ hiểu cho người sợ toán."},
+        {"title": "A Common-Sense Guide to Data Structures and Algorithms", "rating": 9.4, "reason": "Tiếp cận nhẹ nhàng, code mẫu bằng Ruby/Python/JS dễ tiếp thu."}
+      ],
+      "courses": [
+        {"title": "Algorithms, Part I (Coursera/Princeton)", "rating": 9.7, "reason": "Khóa học kinh điển của ĐH Princeton, dạy bằng Java nhưng tư duy áp dụng được cho mọi ngôn ngữ."}
+      ]
+    },
+    "intermediate": {
+      "books": [
+        {"title": "Introduction to Algorithms - CLRS", "rating": 9.9, "reason": "Kinh thánh của dân IT, chứa mọi nền tảng toán học và chứng minh thuật toán chuyên sâu."},
+        {"title": "The Algorithm Design Manual (Steven S. Skiena)", "rating": 9.8, "reason": "Tuyệt vời để luyện thi phỏng vấn thuật toán, tập trung vào thiết kế thay vì chỉ chứng minh."}
+      ],
+      "courses": [
+        {"title": "Algorithms Specialization (Coursera/Stanford)", "rating": 9.6, "reason": "Giảng dạy bởi Tim Roughgarden, cung cấp góc nhìn sâu sắc về toán học đằng sau thuật toán."}
+      ]
+    },
+    "advanced": {
+      "books": [
+        {"title": "Advanced Data Structures (Peter Brass)", "rating": 9.5, "reason": "Phân tích các cấu trúc dữ liệu cực hiếm và phức tạp dùng trong hệ thống core."},
+        {"title": "Algorithm Design (Jon Kleinberg, Éva Tardos)", "rating": 9.7, "reason": "Tập trung mạnh vào các thuật toán tham lam, quy hoạch động và luồng mạng đỉnh cao."}
+      ]
+    }
+  },
+  "database": {
+    "beginner": {
+      "books": [
+        {"title": "SQL in 10 Minutes, Sams Teach Yourself", "rating": 9.0, "reason": "Ngắn gọn, đi thẳng vào các câu lệnh truy vấn SQL phổ biến nhất để làm việc ngay."},
+        {"title": "Learning SQL (Alan Beaulieu)", "rating": 9.2, "reason": "Bao quát cực tốt các câu lệnh từ SELECT cơ bản đến JOIN nâng cao."}
+      ],
+      "courses": [
+        {"title": "CS50's Introduction to Databases with SQL (Harvard)", "rating": 9.6, "reason": "Cung cấp nền tảng vững chắc về SQLite, PostgreSQL và thiết kế Database cơ bản."}
+      ]
+    },
+    "intermediate": {
+      "books": [
+        {"title": "Designing Data-Intensive Applications (Martin Kleppmann)", "rating": 10.0, "reason": "Cuốn sách hoàn hảo nhất mọi thời đại cho Data Engineer/Backend, thiết kế hệ thống phân tán và Big Data."},
+        {"title": "Database Internals (Alex Petrov)", "rating": 9.7, "reason": "Giải phẫu ruột gan của một hệ quản trị cơ sở dữ liệu (B-Trees, LSM Trees)."}
+      ],
+      "courses": [
+        {"title": "CMU 15-445/645: Database Systems", "rating": 9.9, "reason": "Khóa học miễn phí trên Youtube của ĐH Carnegie Mellon, đỉnh cao về Database."}
+      ]
+    },
+    "advanced": {
+      "books": [
+        {"title": "Readings in Database Systems (The Red Book)", "rating": 9.8, "reason": "Tuyển tập các bài báo khoa học (papers) kinh điển nhất về kiến trúc cơ sở dữ liệu."},
+        {"title": "Principles of Distributed Database Systems", "rating": 9.5, "reason": "Chuyên sâu về phân mảnh dữ liệu, đồng thuận (consensus) trong hệ thống tỷ tải."}
+      ]
+    }
+  },
+  "operating_system": {
+    "beginner": {
+      "books": [
+        {"title": "Operating System Concepts (Sách khủng long)", "rating": 9.3, "reason": "Sách giáo trình chuẩn của đa số các trường Đại học về Hệ điều hành, cực kỳ chi tiết."},
+        {"title": "Operating Systems: Three Easy Pieces (OSTEP)", "rating": 9.8, "reason": "Cách hành văn hài hước, biến môn Hệ điều hành khô khan trở nên rất dễ tiếp thu."}
+      ],
+      "courses": [
+        {"title": "Introduction to Operating Systems (Udacity)", "rating": 9.1, "reason": "Dạy kiến thức cốt lõi về Process, Thread, Memory Management từ Georgia Tech."}
+      ]
+    },
+    "intermediate": {
+      "books": [
+        {"title": "Modern Operating Systems (Andrew S. Tanenbaum)", "rating": 9.6, "reason": "Đi sâu vào kiến trúc các hệ điều hành hiện đại như Linux, Windows, Android."},
+        {"title": "Linux Kernel Development (Robert Love)", "rating": 9.7, "reason": "Hướng dẫn thực tiễn nhất để hiểu cách nhân Linux (Kernel) phân bổ tài nguyên."}
+      ]
+    },
+    "advanced": {
+      "books": [
+        {"title": "Understanding the Linux Kernel", "rating": 9.8, "reason": "Bổ xẻ từng dòng code của Linux, dành cho những kỹ sư muốn lập trình nhúng hoặc driver."},
+        {"title": "Windows Internals", "rating": 9.5, "reason": "Tài liệu chuyên sâu nhất để hack hoặc bảo mật lõi của hệ điều hành Windows."}
+      ]
+    }
+  },
+  "networking": {
+    "beginner": {
+      "books": [
+        {"title": "Computer Networking: A Top-Down Approach (Kurose/Ross)", "rating": 9.8, "reason": "Tiếp cận từ tầng Ứng dụng (Application layer) đi xuống, rất dễ hình dung cho sinh viên."},
+        {"title": "CompTIA Network+ Certification All-in-One", "rating": 9.2, "reason": "Phù hợp để vừa học kiến thức nền vừa thi lấy chứng chỉ quốc tế cơ bản."}
+      ],
+      "courses": [
+        {"title": "The Bits and Bytes of Computer Networking (Coursera/Google)", "rating": 9.4, "reason": "Nằm trong chứng chỉ Google IT Support, học nền tảng TCP/IP, DNS rất trực quan."}
+      ]
+    },
+    "intermediate": {
+      "books": [
+        {"title": "TCP/IP Illustrated, Volume 1 (W. Richard Stevens)", "rating": 9.9, "reason": "Chi tiết từng gói tin, giao thức mạng với hình ảnh minh họa dump packet thực tế."},
+        {"title": "Routing TCP/IP, Volume 1", "rating": 9.5, "reason": "Sách chuyên ngành sâu cho những ai thi chứng chỉ CCNP/CCIE của Cisco."}
+      ]
+    },
+    "advanced": {
+      "books": [
+        {"title": "Computer Networks: A Systems Approach", "rating": 9.6, "reason": "Góc nhìn kiến trúc hệ thống, cách xây dựng các giao thức mạng từ đầu."},
+        {"title": "High Performance Browser Networking (Ilya Grigorik)", "rating": 9.7, "reason": "Tối ưu hóa giao thức HTTP/2, WebSockets dành cho Backend/Frontend senior."}
+      ]
+    }
+  },
+  "web_development": {
+    "beginner": {
+      "books": [
+        {"title": "HTML and CSS: Design and Build Websites (Jon Duckett)", "rating": 9.5, "reason": "Sách thiết kế in màu cực đẹp, trực quan, phù hợp người mới học làm giao diện."},
+        {"title": "Eloquent JavaScript", "rating": 9.4, "reason": "Vừa dạy cú pháp JS vừa dạy tư duy lập trình web cơ bản cực hay."}
+      ],
+      "courses": [
+        {"title": "The Odin Project (Foundations)", "rating": 9.9, "reason": "Lộ trình Fullstack mã nguồn mở tốt nhất hiện nay, ép sinh viên thực hành project thật qua Github."},
+        {"title": "Responsive Web Design (FreeCodeCamp)", "rating": 9.6, "reason": "Hàng trăm bài tập tương tác ngắn hạn giúp nhớ code HTML/CSS siêu nhanh."}
+      ]
+    },
+    "intermediate": {
+      "books": [
+        {"title": "You Don't Know JS (Kyle Simpson)", "rating": 9.8, "reason": "Đào sâu vào các khái niệm cốt lõi của Javascript (Closure, Promises, Scope) mà 90% dev hay sai."},
+        {"title": "React: Up & Running", "rating": 9.2, "reason": "Tiếp cận nhanh để xây dựng Web App hiện đại với React."}
+      ],
+      "courses": [
+        {"title": "Full Stack Open (University of Helsinki)", "rating": 9.9, "reason": "Học React, Redux, Node.js, GraphQL chuẩn môi trường doanh nghiệp châu Âu."}
+      ]
+    },
+    "advanced": {
+      "books": [
+        {"title": "Web Performance in Action", "rating": 9.6, "reason": "Tối ưu hóa thời gian load trang, lazy loading, và điểm Google Lighthouse."},
+        {"title": "Designing Distributed Systems (Brendan Burns)", "rating": 9.7, "reason": "Học cách thiết kế hệ thống Microservices cho Backend Web tải cao."}
+      ]
+    }
+  },
+  "machine_learning": {
+    "beginner": {
+      "books": [
+        {"title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow", "rating": 9.8, "reason": "Sách thực hành đỉnh cao, cân bằng hoàn hảo giữa lý thuyết toán và code Python."},
+        {"title": "The Hundred-Page Machine Learning Book (Andriy Burkov)", "rating": 9.5, "reason": "Tóm tắt cực kỳ súc tích toàn bộ nền tảng ML trong đúng 100 trang."}
+      ],
+      "courses": [
+        {"title": "Machine Learning Specialization (Andrew Ng / Coursera)", "rating": 9.9, "reason": "Khóa học vỡ lòng kinh điển nhất thế giới về AI do giáo sư ĐH Stanford giảng dạy."}
+      ]
+    },
+    "intermediate": {
+      "books": [
+        {"title": "Pattern Recognition and Machine Learning (Christopher Bishop)", "rating": 9.7, "reason": "Nặng về Toán và Xác suất Thống kê, nền tảng bắt buộc để làm AI Researcher."},
+        {"title": "Deep Learning (Ian Goodfellow)", "rating": 9.8, "reason": "Được coi là 'Kinh thánh của Deep Learning', viết bởi cha đẻ của mạng GANs."}
+      ],
+      "courses": [
+        {"title": "Deep Learning Specialization (Coursera/DeepLearning.AI)", "rating": 9.8, "reason": "5 khóa học chuyên sâu về Neural Networks, CNN, RNN và Transformer."}
+      ]
+    },
+    "advanced": {
+      "books": [
+        {"title": "Reinforcement Learning: An Introduction (Sutton and Barto)", "rating": 9.9, "reason": "Sách tối thượng để học về Học tăng cường (loại AI dùng để đánh bại nhà vô địch cờ vây)."},
+        {"title": "Probabilistic Machine Learning: Advanced Topics (Kevin Murphy)", "rating": 9.6, "reason": "Toán học nâng cao về mô hình sinh (Generative Models) và suy luận Bayes."}
+      ]
+    }
+  },
+  "cyber_security": {
+    "beginner": {
+      "books": [
+        {"title": "CompTIA Security+ Get Certified Get Ahead", "rating": 9.4, "reason": "Bao quát toàn bộ thuật ngữ, mã hóa, lỗ hổng và khái niệm bảo mật cơ bản nhất."},
+        {"title": "Social Engineering: The Science of Human Hacking", "rating": 9.2, "reason": "Sách phi kỹ thuật cực hay về cách hacker thao túng tâm lý con người để lấy mật khẩu."}
+      ],
+      "courses": [
+        {"title": "TryHackMe (Nền tảng thực hành)", "rating": 9.8, "reason": "Học qua việc chơi game giải đố CTF (Capture the Flag) có hướng dẫn chi tiết."},
+        {"title": "Google Cybersecurity Professional Certificate (Coursera)", "rating": 9.5, "reason": "Học nền tảng phân tích bảo mật, Python, Linux và SQL cho người mới."}
+      ]
+    },
+    "intermediate": {
+      "books": [
+        {"title": "The Web Application Hacker's Handbook", "rating": 9.9, "reason": "Kinh thánh của dân làm Web Pentest (Kiểm thử xâm nhập), chứa mọi kỹ thuật hack thực tế."},
+        {"title": "Black Hat Python", "rating": 9.5, "reason": "Dạy cách tự viết các công cụ hack mạng, trojan, và sniffer bằng ngôn ngữ Python."}
+      ],
+      "courses": [
+        {"title": "HackTheBox (HTB)", "rating": 9.7, "reason": "Phòng lab mô phỏng các máy chủ thực tế bị dính lỗ hổng để học viên tự tấn công."}
+      ]
+    },
+    "advanced": {
+      "books": [
+        {"title": "Practical Malware Analysis", "rating": 9.8, "reason": "Hướng dẫn mổ xẻ virus, trojan, randsomware để xem cách chúng hoạt động bằng Assembly."},
+        {"title": "The Art of Memory Forensics", "rating": 9.6, "reason": "Kỹ thuật điều tra số cấp cao: trích xuất mã độc đang chạy ẩn trên RAM máy tính."}
+      ]
+    }
+  }
+}
