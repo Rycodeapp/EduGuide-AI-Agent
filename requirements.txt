@@ -4,3 +4,4 @@ python-dotenv
 google-api-python-client
 pandas
 duckduckgo-search
+# sqlite3 đã có sẵn trong Python
